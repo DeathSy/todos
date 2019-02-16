@@ -3,7 +3,7 @@ jQuery(function ($) {
 	'use strict';
 
 	//use browser local storage instead of db by making this falg on
-	var useLocalStorage = false;
+	var useLocalStorage = true;
 
 
 	Handlebars.registerHelper('eq', function (a, b, options) {
